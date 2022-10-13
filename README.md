@@ -41,4 +41,4 @@
     - Created task defintion( ECS_CONTAINER_INSTANCE was created automatically)
     - ran CI/CD (Successfull)
     - The app was visible on EC2 instance public ip address
-    ![](Screenshot from 2022-10-13 17-20-22.png)
+ 
