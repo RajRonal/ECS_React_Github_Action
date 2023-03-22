@@ -4,15 +4,14 @@ workflows:
   deploy-test:
     jobs:
       - test
-
-    jobs:
-      test:
-        docker:
-         - image: cimg/node:14.13.0
-        steps:
-         - checkout
-         - run:
-             name: install dependencies
-             command: npm i
-         - run: node --version
+jobs:
+  test:
+    docker:
+      - image: cimg/node:14.13.0
+    steps:
+      - checkout
+      - run:
+         name: install dependencies
+         command: npm i
+      - run: node --version
           
