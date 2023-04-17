@@ -15,3 +15,4 @@ CMD ["nginx", "-g", "daemon off;"]
 
 # To create the container
 # docker run -it -p 8080:80 workshop:latest
+# commenting to test deploy concurrency
