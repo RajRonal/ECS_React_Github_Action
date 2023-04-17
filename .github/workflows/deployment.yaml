@@ -1,4 +1,4 @@
-name: Deploy to EC
+name: Deploy to ECs
 on:
   push:
     branches: main
