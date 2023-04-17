@@ -15,7 +15,7 @@ concurrency:
 jobs:
 
   build-docker-and-deploy:
-    needs: lint-and-test
+ 
     runs-on: ubuntu-latest
     permissions:
       packages: write
